@@ -1,0 +1,8 @@
+# Passo 1: Lê a entrada e converte para inteiro
+numero = int(input("Digite um número inteiro: "))
+
+# Passo 2: Verifica se o resto da divisão por 3 é zero
+if numero % 3 == 0:
+    print("Múltiplo de 3")
+else:
+    print("Não é múltiplo")
