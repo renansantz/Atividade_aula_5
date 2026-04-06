@@ -1,0 +1,8 @@
+# Lê a entrada do usuário
+valor = input("Digite algo: ")
+
+# Exibe o valor digitado
+print(f"Valor digitado: {valor}")
+
+# Exibe o tipo da variável
+print(f"Tipo da variável: {type(valor)}")
