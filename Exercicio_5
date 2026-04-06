@@ -1,0 +1,9 @@
+# 1. Lê a entrada como texto
+entrada = input("Digite um número: ")
+
+# 2. Converte o texto para um número inteiro
+numero = int(entrada)
+
+# 3. Calcula o triplo e exibe o resultado
+triplo = numero * 3
+print(f"O valor digitado foi {numero} e o seu triplo é {triplo}.")
