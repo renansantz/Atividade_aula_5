@@ -1,0 +1,17 @@
+# Lê a entrada (sempre virá como string inicialmente)
+entrada = input("Digite um valor: ")
+
+# Mostra o tipo inicial da variável
+print(f"Tipo inicial da variável: {type(entrada)}")
+
+try:
+    # Tenta converter para float (aceita inteiros e decimais)
+    numero = float(entrada)
+    
+    # Se a conversão funcionou, o valor é numérico
+    quadrado = numero ** 2
+    print(f"O valor é numérico. O seu quadrado é: {quadrado}")
+    
+except ValueError:
+    # Se a conversão falhou, o valor não é numérico
+    print("O valor digitado não é numérico, portanto não tem quadrado.")
