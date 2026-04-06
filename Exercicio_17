@@ -1,0 +1,10 @@
+# Passo 1: Lê a idade e converte para número inteiro
+idade = int(input("Digite a sua idade: "))
+
+# Passo 2: Verifica as faixas etárias
+if idade < 18:
+    print("Menor de idade")
+elif 18 <= idade <= 59:
+    print("Adulto")
+else:
+    print("Idoso")
