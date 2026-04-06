@@ -1,0 +1,15 @@
+# Lê o número e converte para inteiro
+numero = int(input("Digite um número inteiro: "))
+
+# Primeiro, verificamos se o número é par
+if numero % 2 == 0:
+    # Se for par, verificamos o sinal
+    if numero > 0:
+        print("Par positivo")
+    elif numero < 0:
+        print("Par negativo")
+    else:
+        print("Zero é par, mas é neutro")
+# Se não for par, ele é obrigatoriamente ímpar
+else:
+    print("Ímpar")
