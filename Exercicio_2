@@ -1,11 +1,4 @@
-# Passo 1: Lê a entrada do usuário
-entrada = input("Digite um número: ")
-
-# Passo 2: Converte o texto recebido para um número inteiro
-numero = int(entrada)
-
-# Passo 3: Calcula o dobro
+numero = int(input("Digite um número: "))
 dobro = numero * 2
 
-# Passo 4: Exibe o resultado
-print(f"O dobro de {numero} é {dobro}")
+print("Dobro:", dobro)
