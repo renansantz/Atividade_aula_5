@@ -1,0 +1,8 @@
+# Passo 1: Lê o número e converte para decimal
+numero = float(input("Digite um número: "))
+
+# Passo 2: Verifica se o número está no intervalo [0, 10]
+if numero >= 0 and numero <= 10:
+    print("Dentro do intervalo")
+else:
+    print("Fora do intervalo")
