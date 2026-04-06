@@ -1,0 +1,8 @@
+# Passo 1: Lê a entrada e converte para número
+numero = float(input("Digite um número: "))
+
+# Passo 2: Verifica se o número está no intervalo [10, 20]
+if numero >= 10 and numero <= 20:
+    print("Dentro")
+else:
+    print("Fora")
