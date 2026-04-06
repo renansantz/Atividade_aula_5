@@ -1,0 +1,8 @@
+# Passo 1: Lê o valor e converte para número decimal (float)
+valor = float(input("Digite um valor: "))
+
+# Passo 2: Verifica a condição
+if valor > 10:
+    print("Maior que 10")
+else:
+    print("Menor ou igual a 10")
