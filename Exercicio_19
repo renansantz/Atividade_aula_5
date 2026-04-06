@@ -1,0 +1,15 @@
+# Passo 1: Lê os dois números e converte para float
+num1 = float(input("Digite o primeiro número: "))
+num2 = float(input("Digite o segundo número: "))
+
+# Passo 2: Verifica se são iguais ou diferentes
+if num1 == num2:
+    print("Os números são iguais.")
+else:
+    # Passo 3: Calcula a diferença (o maior menos o menor)
+    if num1 > num2:
+        diferenca = num1 - num2
+    else:
+        diferenca = num2 - num1
+        
+    print(f"Os números são diferentes. A diferença entre eles é {diferenca}.")
