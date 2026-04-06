@@ -1,0 +1,11 @@
+# Passo 1: Lê a entrada do usuário
+entrada = input("Digite um número: ")
+
+# Passo 2: Converta para float (ponto flutuante/decimal)
+valor = float(entrada)
+
+# Passo 3: Calcula a metade
+metade = valor / 2
+
+# Passo 4: Exibe o resultado
+print(f"A metade de {valor} é {metade}")
