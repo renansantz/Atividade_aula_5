@@ -1,0 +1,12 @@
+# Passo 1: Lê o número e converte para float (para aceitar decimais)
+numero = float(input("Digite um número: "))
+
+# Passo 2: Verifica a condição
+if numero > 100:
+    # Se for maior que 100, calcula a metade
+    resultado = numero / 2
+    print(f"O número é maior que 100. A metade é: {resultado}")
+else:
+    # Caso contrário (100 ou menor), calcula o dobro
+    resultado = numero * 2
+    print(f"O número não é maior que 100. O dobro é: {resultado}")
